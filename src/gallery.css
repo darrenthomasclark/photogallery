@@ -80,24 +80,28 @@
   padding-bottom: 25px;
   padding-top: 25px;
   padding-left: 100px;
+  width: 100%;
 }
 
 .instructions {
   border: none;
-  background-color: grey;
-  color: lightgrey;
+  background-color: white;
+  color: #53565a;
   padding: 7px;
-  padding-left: 50px;
-  padding-right: 40px;
   flex-wrap: wrap;
   margin: auto;
+  font-weight: 300;
+  font-family: 'Open Sans', serif;
+
 }
 
 .return {
   border: none;
-  background-color: grey;
-  color: white;
+  background-color: white;
+  color: #53565a;
   padding: 7px;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
 }
 
 .image img {

@@ -36,28 +36,23 @@ class App extends Component {
 
     if (this.state.currentImage === null) {
       switch (this.state.currentAlbum) {
-        case 'Album One':
+        case 'Sport Utility Vehicles':
           screen = <AlbumOne onNavigate={this.onNavigate} />
           break;
-        case 'Album Two':
-          screen = <AlbumTwo
-          onNavigate={this.onNavigate} />
+        case 'Unicycles':
+          screen = <AlbumTwo onNavigate={this.onNavigate} />
           break;
-        case 'Album Three':
-          screen = <AlbumThree
-          onNavigate={this.onNavigate} />
+        case 'Rollerskates':
+          screen = <AlbumThree onNavigate={this.onNavigate} />
           break;
-        case 'Album Four':
-          screen = <AlbumFour
-          onNavigate={this.onNavigate} />
+        case 'Machinery':
+          screen = <AlbumFour onNavigate={this.onNavigate} />
           break;
-        case 'Album Five':
-          screen = <AlbumFive
-          onNavigate={this.onNavigate} />
+        case 'Hoverboards':
+          screen = <AlbumFive onNavigate={this.onNavigate} />
           break;
-        case 'Album Six':
-          screen = <AlbumSix
-          onNavigate={this.onNavigate} />
+        case 'Skateboards':
+          screen = <AlbumSix onNavigate={this.onNavigate} />
           break;
         default:
           screen = <Albums onNavigate={this.onNavigate} />
@@ -73,17 +68,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>Disney Parks Photo Gallery</h1>
+          <h1>Wheels Gallery</h1>
         </div>
-
-        {/* put on the current screen here... */}
-        {/* Albums Component goes here */}
         <div className="gallery">
           {screen}
         </div>
 
         <div className="App-footer">
-        <h2>Copyright 2016 Matt Schwartz</h2>
+        <h2>Code by Matt Schwartz. Borrowed by and hacked by Darren Clark.</h2>
         </div>
       </div>
     );

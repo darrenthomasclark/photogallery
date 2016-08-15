@@ -9,12 +9,12 @@ class AlbumThree extends Component {
   render() {
     return (
       <div onClick={this.handleClick} className="albumThree">
-        <img src="images/gallerythree/mgmOne.jpg" onClick={this.handleClick} alt="" />
-        <img src="images/gallerythree/mgmTwo.jpg" onClick={this.handleClick} alt="" />
-        <img src="images/gallerythree/mgmThree.jpg" onClick={this.handleClick} alt="" />
-        <img src="images/gallerythree/mgmFour.jpg" onClick={this.handleClick} alt="" />
-        <img src="images/gallerythree/mgmFive.jpg" onClick={this.handleClick} alt="" />
-        <img src="images/gallerythree/mgmSix.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0f2365d.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0e9bba1.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0e0d143.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0d874a4.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0cbb233.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/0ab0cf0048.jpg" onClick={this.handleClick} alt="" />
         <p className="instructions"> Click a Photo to Enlarge</p>
       </div>
     )
