@@ -23,6 +23,12 @@ class AlbumFour extends Component {
         <img src="https://i.imgsafe.org/0b7fb93192.jpg" onClick={this.handleClick} alt="" />
         <img src="https://i.imgsafe.org/0b7fb3b4b5.jpg" onClick={this.handleClick} alt="" />
         <img src="https://i.imgsafe.org/0b7faf3e04.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb729ca7.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb719439.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb71187c.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb61c25d.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb533005.jpg" onClick={this.handleClick} alt="" />
+        <img src="https://i.imgsafe.org/2bcb562f5d.jpg" onClick={this.handleClick} alt="" />
       </div>
       </div>
       </div>
