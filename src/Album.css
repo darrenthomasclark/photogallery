@@ -1,0 +1,67 @@
+.instructions {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  color: #53565a;
+  font-size: .75em;
+  margin-left: 15px;
+}
+
+.instructions a:link {
+text-decoration: underline;
+}
+
+.instructions a:hover {
+  text-decoration: underline;
+}
+
+.instructions a:visited {
+  text-decoration: underline;
+}
+
+.instructions a:focus{
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.5em;
+  color: black;
+  font-weight: 500;
+  border: 0.5px #ccc dashed;
+  background-color: white;
+  padding: 5px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #53565a;
+  margin: 10px;
+}
+
+h4 a:link {
+  text-decoration: none;
+  color: #53565a;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+  color: #53565a;
+}
+
+h4 a:visited {
+  text-decoration: none;
+  color: #53565a;
+}
+
+.albumheader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.albumcontainer {
+  width: 100%;
+}

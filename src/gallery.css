@@ -1,86 +1,92 @@
 .albumOne img {
   height: 200px;
   width: 200px;
-  margin: 6px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }
 
 .albumOne {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
 }
 
 .albumTwo img {
   height: 200px;
   width: 200px;
-  margin: 6px;
-}
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
+  }
 
 .albumTwo {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
 }
 
 .albumThree img {
   height: 200px;
   width: 200px;
-  margin: 6px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }
 
 .albumThree {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
 }
 
 .albumFour img {
   height: 200px;
   width: 200px;
-  margin: 6px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }
 
 .albumFour {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
+
 }
 
 .albumFive img {
   height: 200px;
   width: 200px;
-  margin: 6px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }
 
 .albumFive {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
 }
 
 .albumSix img {
   height: 200px;
   width: 200px;
-  margin: 6px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }
 
 .albumSix {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 100px;
-  width: 100%;
 }
 
 .instructions {
@@ -92,18 +98,24 @@
   margin: auto;
   font-weight: 300;
   font-family: 'Open Sans', serif;
-
 }
 
 .return {
   border: none;
   background-color: white;
   color: #53565a;
-  padding: 7px;
+  padding: 5px;
   font-family: 'Open Sans', serif;
   font-weight: 300;
+  border: 0.5px #ccc dashed;
+  font-size: 16px;
+  width: 25%;
 }
 
 .image img {
   height: 440px;
+  border: 0.5px solid #ccc;
+  -webkit-box-shadow: 0 10px 6px -6px #53565a;
+  -moz-box-shadow: 0 10px 6px -6px #53565a;
+  box-shadow: 0 10px 6px -6px #53565a;
 }

@@ -8,9 +8,9 @@ class Image extends Component {
 
   render() {
     return (
-      <div className="image" onClick={this.clickHandler}>
+      <div className="image">
         <img src={this.props.url} alt={this.props.title} />
-        <p className="return"> Click Here to Return to Album</p>
+        <p className="return" onClick={this.clickHandler}>Return to Album</p>
       </div>
     )
   }

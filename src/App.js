@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Header.css';
+import './Footer.css';
 import Albums from './Albums'
 import AlbumOne from './AlbumOne'
 import AlbumTwo from './AlbumTwo'
 import AlbumThree from './AlbumThree'
+import AlbumFour from './AlbumFour'
 import AlbumFive from './AlbumFive'
 import AlbumSix from './AlbumSix'
 import Image from './Image'
+import Header from './Header'
+import Footer from './Footer'
 
 class App extends Component {
 
@@ -63,20 +68,15 @@ class App extends Component {
       onNavigate={this.onNavigate} />
     }
 
-
-
     return (
       <div className="App">
-        <div className="App-header">
-          <h1>Wheels Gallery</h1>
+        <Header />
+        <div className="gallerycontainer">
+          <div className="gallery">
+            {screen}
+          </div>
         </div>
-        <div className="gallery">
-          {screen}
-        </div>
-
-        <div className="App-footer">
-        <h2>Code by Matt Schwartz. Borrowed by and hacked by Darren Clark.</h2>
-        </div>
+        <Footer />
       </div>
     );
   }
